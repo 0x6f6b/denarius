@@ -1,0 +1,14 @@
+{
+  "name": "denarius",
+  "version": "1.0.0-alpha",
+  "description": "Digital Money",
+  "main": "main.js",
+  "author": "0x6f6b",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^21.2.2"
+  },
+  "scripts": {
+    "start": "electron ."
+  }
+}

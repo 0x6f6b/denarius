@@ -1,0 +1,57 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: none;
+  color: white;
+  font-family: sans-serif;
+}
+
+body {
+  /* fade in animation */
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+/* fade in animation */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+body {
+  margin: 0 80px;
+  margin-bottom: 34px;
+  background-color: #000;
+}
+
+#build-info {
+  font-size: 12px;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-btn {
+  display: flex;
+  padding: 0.8rem 0;
+  width: 140px;
+  border-radius: 15px;
+  background-color: rgb(128, 236, 255);
+  color: black;
+  transition: transform 0.2s ease-in-out;
+  font-size: 1.2rem;
+  justify-content: center;
+}
+
+.nav-btn:hover {
+  transform: scale(1.025);
+}

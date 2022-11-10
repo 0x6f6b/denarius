@@ -1,0 +1,13 @@
+#mining-btn {
+  background-color: rgb(20, 241, 149);
+  color: black;
+  border: none;
+}
+
+.mining-window {
+  height: calc(100vh - 143px);
+  display: flex;
+  border: 1px solid white;
+  margin-top: 20px;
+  border-radius: 20px;
+}
